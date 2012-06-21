@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2012-06-15">
+    <creator>Gephi 0.8</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" timeformat="double" mode="dynamic">
+    <attributes class="edge" mode="static">
+      <attribute id="Flow" title="Flow" type="integer"></attribute>
+      <attribute id="Capacity" title="Capacity" type="integer"></attribute>
+    </attributes>
+    <nodes>
+      <node id="1">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-843.0721" y="580.7264" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="2">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-843.0721" y="402.4332" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="3">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-659.6848" y="529.78546" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="4">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-583.27344" y="376.96274" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="5">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-160.46387" y="346.3982" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="6">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-374.4157" y="539.97363" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="1" target="2">
+        <attvalues>
+          <attvalue for="weight" value="1.0"></attvalue>
+          <attvalue for="Flow" value="0"></attvalue>
+          <attvalue for="Capacity" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="1" target="3">
+        <attvalues>
+          <attvalue for="weight" value="1.0"></attvalue>
+          <attvalue for="Flow" value="0"></attvalue>
+          <attvalue for="Capacity" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="2" target="4">
+        <attvalues>
+          <attvalue for="weight" value="1.0"></attvalue>
+          <attvalue for="Flow" value="0"></attvalue>
+          <attvalue for="Capacity" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="3" target="6">
+        <attvalues>
+          <attvalue for="weight" value="1.0"></attvalue>
+          <attvalue for="Flow" value="0"></attvalue>
+          <attvalue for="Capacity" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="4" target="5">
+        <attvalues>
+          <attvalue for="weight" value="1.0"></attvalue>
+          <attvalue for="Flow" value="0"></attvalue>
+          <attvalue for="Capacity" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="4" target="6">
+        <attvalues>
+          <attvalue for="weight" value="1.0"></attvalue>
+          <attvalue for="Flow" value="0"></attvalue>
+          <attvalue for="Capacity" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="6" target="5">
+        <attvalues>
+          <attvalue for="weight" value="1.0"></attvalue>
+          <attvalue for="Flow" value="0"></attvalue>
+          <attvalue for="Capacity" value="1"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
