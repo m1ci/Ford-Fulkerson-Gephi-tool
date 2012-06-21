@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: cz.ctu.fit.w2e.ff
+OpenIDE-Module-Localizing-Bundle: cz/ctu/fit/w2e/ff/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+
